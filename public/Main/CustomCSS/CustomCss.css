@@ -1,0 +1,31 @@
+.PCustomSkills{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.CustomDivFather{
+    width: 100%;
+    height: 25px;
+    border-radius: 30px;
+    background-color: gainsboro;
+}
+.CustomDivSon{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(111, 199, 111);
+    border-radius: inherit;
+}
+.CustomPGrandSon{
+    text-align: center;
+}
+.CustonWorkExpDivFather{
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 90%;
+}
+#CalIcon{
+    margin-right: 4%;
+}
+.JobTypeWorkExpP{
+    font-size: 19px;
+    color: #645c5c;
+}

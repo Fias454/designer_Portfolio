@@ -1,0 +1,177 @@
+body{
+    background-color: snow;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+.MainBody{
+    margin-top: 1%;
+    height: fit-content;
+}
+.LeftSection{
+    height: 1000px;
+    margin-left: 2%;
+    box-shadow: 1px 1px 30px gray;
+}
+.ImgDiv{
+    height: 25%;
+}
+#ImgMain{
+    margin-left: 5%;
+    width: 90%;
+    height: 95%;
+}
+.NameImgMain{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -11%;
+    margin-left: -1%;
+    color: snow;
+}
+.Icon{
+    margin-right: 4%;
+    margin-left: unset;
+    font-size: 25px;
+    margin-top: 2%;
+    color: yellowgreen;
+}
+hr{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.SkillsDivP{
+    font-size: 20px;
+}
+#SIcon{
+    font-size: 30px;
+    color: rgb(218, 205, 32);
+}
+#LanguagesP{
+    margin-top: 5%;
+}
+.RightSection{
+    margin-left: 3%;
+    height: 750px;
+}
+.WorkExpDiv{
+    margin-top: -2%;
+    height: fit-content;
+    box-shadow: 1px 1px 30px gray;
+}
+.HeaderWorkExp{
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.CustonWorkExpDivFather{
+    height: fit-content;
+}
+.RightSectionMore{
+    margin-top: 5%;
+    height: fit-content;
+    box-shadow: 1px 1px 30px gray;
+}
+.EducationP{
+    font-size: 25px;
+}
+.IICon{
+    font-size: 40px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 2%;
+    color: rgb(111, 199, 111);
+}
+.EducationDiv{
+    height: 150px;
+}
+.EducationDiv p{
+    margin-left: 5%;
+}
+.EducationInstName{
+    font-size: 21px;
+    color: rgb(128, 118, 118);
+}
+.EducationTime{
+    font-size: 19px;
+    color:rgb(111, 199, 111);
+}
+#CalIcon{
+    font-size: 23px;
+}
+.Customhr{
+    width: 90%;
+    margin-left: 5%;
+}
+.FootSe{
+    margin-top: 220px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(111, 199, 111);
+}
+.SocialMedia{
+    font-size: 19px;
+}
+.BtnCursedPack{
+    user-select: none;
+}
+.BtnCursedPack button{
+    border: none;
+    background-color: inherit;
+    width: 2%;
+    height: 4%;
+    font-size: 19px;
+}
+.BtnCursedPack button:hover{
+    color: rgb(43, 42, 42);
+}
+@media (max-width: 860px){
+    #ImgMain{
+        margin-left: -4%;
+        width: 108%;
+    }
+    .NameImgMain{
+        margin-top: -17%;
+    }
+}
+@media (max-width: 575px) {
+    .LeftSection{
+        width: 93.5%;
+        margin-left: 3.2%;
+    }
+    .RightSection{
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+    .RightSectionMore{
+        width: 98%;
+        margin-left: 1%;
+    }
+    #ImgMain{
+        margin-left: unset;
+        width: 100%;
+    }
+    .NameImgMain{
+        margin-top: -10%;
+    }
+}
+@media (max-width: 857px) { 
+    html, body{
+        overflow-x: hidden;
+    }
+    .FootSe{
+    margin-top: 30%;
+    } 
+    .BtnCursedPack button{
+        width: 6%;
+    }
+}
+@media(min-width: 576px) and (max-width: 800px) {
+    .FootSe{
+        margin-top: 352px;
+    } 
+}
+@media (min-width: 200px) and (max-width: 575px) {
+    .FootSe{
+        margin-top: 600px;
+    } 
+}
